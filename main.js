@@ -13,7 +13,6 @@ tabButtons.forEach((tab, index) => {
   tab.setAttribute("role", "tab");
   if (index === 0) {
     tab.setAttribute("aria-selected", "true");
-    // we'll add something here
   } else {
     tab.setAttribute("tabindex", "-1");
     tabPanels[index].setAttribute("hidden", "");
